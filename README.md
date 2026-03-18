@@ -33,6 +33,12 @@ The system is divided into three projects:
 | `Server` | Application logic, system operations, DB broker |
 | `Zajednicki` | Shared domain model and communication objects |
 
+## Database Setup
+
+1. Open MySQL and create a new schema called `krojacka_radnja`
+2. Import `krojacka_radnja.sql` from the `database/` folder
+3. Update `dbconfig.properties` with your credentials
+
 ## How to Run
 
 1. Import all three projects into NetBeans
